@@ -5,7 +5,7 @@ from euler import p0001, p0002, p0003, p0004, p0005, p0006, p0007, p0008, p0009,
     p0031, p0032, p0033, p0034, p0035, \
     p0036, p0037, p0038, p0039, p0040, p0041, p0042, p0043, p0044, p0045, p0046, p0047, p0048, p0049, p0050, p0052, \
     p0053, p0055, p0056, p0057, p0058, \
-    p0059, p0063, p0079, p0067, p0092, p0097, p0206, p0684
+    p0059, p0063, p0079, p0067, p0092, p0097, p0206, p0684, p0686
 
 
 class TestEuler(unittest.TestCase):
@@ -201,4 +201,7 @@ class TestEuler(unittest.TestCase):
 
     def test_0684(self):
         self.assertEqual(p0684.algo(), 922058210)
+
+    def test_0686(self):
+        self.assertEqual(p0686.algo(), 193060223)
 
